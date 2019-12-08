@@ -7,14 +7,22 @@
     <title>Pokusaj ovo</title>
 </head>
 <body>
+<div allign = "center" bold = "true">
+
 <?php
 
 $uredjaj = $_GET['uredjaj'];
 
-echo "Jesi probao iskljućit i uključit $uredjaj?";
+echo "<b>Jesi probao iskljućit i uključit $uredjaj?</b>";
+
 ?>
+
+</div>
 <h1>I da li je pomoglo?</h1>
 
+<?php
+echo '<hr />';
+?>
 <input type="button" value="Da" onclick="location='YW.php'" />
 <input type="button" value="Ne" onclick="location='Drugo.php'" />
 

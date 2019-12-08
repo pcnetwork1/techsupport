@@ -8,9 +8,16 @@
 </head>
 <body>
 <h1 allign="center">Upišite ime uređaja koji stvara problem</h1>
-<form action="process.php" method="GET">
+<form action="process.php" action="Drugo.php" method="GET">
     <input type="text" id="uredjaj" name="uredjaj" placeholder="name" />
     <input type="submit" name="Submit" id="Submit" value="Submit"/>
 </form>
+
+<footer>
+<?php
+echo '<hr />';
+?>
+Ideja iz serije "THE IT CROWD"
+</footer>
 </body>
 </html>
